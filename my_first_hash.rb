@@ -1,12 +1,12 @@
 def my_hash
  your_hash = {"name" => "Claudia", "age" => "27"}
- your_hash
+ puts your_hash
 end
 
 
 def shipping_manifest
   the_manifest = {"whale bone corsets" => "5", "porcelain vases" => "2", "oi paintings" => "3"}
-  the_manifest
+  puts the_manifest
 end
 
 def retrieval
@@ -17,7 +17,7 @@ def retrieval
                  }
 
   shipping_manifest["oil paintings"]
-  shipping_manifest
+  puts shipping_manifest
 end
 
 def adding
@@ -28,5 +28,5 @@ def adding
                  }
   shipping_manifest["muskets"] = "2"
   shipping_manifest["gun powder"] = "4"
-  shipping_manifest
+  puts shipping_manifest
 end
